@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Pizza Restaurant</title>
         <meta name="description" content="Best pizza shop in town" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/size.png" />
       </Head>
       Home page!
     </div>
