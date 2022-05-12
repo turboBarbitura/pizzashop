@@ -90,4 +90,12 @@
   .item:nth-child(1) {
     flex: 3;
   }
+
+  .text:last-child {
+    font-size: 14px;
+  }
+
+  .text:first-child {
+    font-size: 20px;
+  }
 }

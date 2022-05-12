@@ -1,12 +1,12 @@
-import styles from "../styles/Cart.module.css";
-import Image from "next/image";
+import styles from '../styles/Cart.module.css'
+import Image from 'next/image'
 
 const Cart = () => {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
         <table className={styles.table}>
-          <tr className={styles.tr}>
+          <tr className={styles.trTitle}>
             <th>Product</th>
             <th>Name</th>
             <th>Extras</th>
@@ -14,7 +14,7 @@ const Cart = () => {
             <th>Quantity</th>
             <th>Total</th>
           </tr>
-          <tr>
+          <tr className={styles.tr}>
             <td className={styles.imgPizza}>
               <div className={styles.imgContainer}>
                 <Image
@@ -61,7 +61,7 @@ const Cart = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Cart;
+export default Cart
